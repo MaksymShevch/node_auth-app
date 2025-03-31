@@ -26,7 +26,7 @@ export function sendActivationLink(email, token) {
     email,
     subject: 'Account activation',
     html: `
-    <h1>Account activation</h1>
+    <h1>Acccount activation</h1>
     <a href="${link}">${link}</a>
     `,
   });
